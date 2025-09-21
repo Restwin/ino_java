@@ -125,7 +125,6 @@ public class App {
             throw new IllegalArgumentException("Неверный формат пола, используйте 'м' или 'ж'.");
         }
 
-        Person person = new Person(namePart, money, gender);
-        return person;
+        return new Person(namePart, money, gender);
     }
 }
